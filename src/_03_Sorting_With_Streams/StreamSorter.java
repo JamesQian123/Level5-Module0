@@ -21,6 +21,7 @@ import org.junit.jupiter.api.Test;
 public class StreamSorter {
 
     int[] sortArray(int[] arr) {
+    	int sorted = Arrays.stream(arr).sorted();
         return null;
     }
 
